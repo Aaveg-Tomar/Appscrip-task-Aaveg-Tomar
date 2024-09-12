@@ -1,48 +1,49 @@
 .container-banner {
-    width: 100%;
-    max-width: 64rem; /* max-w-4xl */
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    padding: 3rem 1rem; /* py-12 px-4 */
-  }
+  width: 100%;
+  max-width: 64rem;
+  margin: 0 auto; 
+  text-align: center;
+  padding: 3rem 1rem;
+  box-sizing: border-box;
+}
+
   
   .title-banner {
-    font-size: 2.25rem; /* text-4xl */
+    font-size: 2.25rem;
     font-weight: bold;
-    margin-bottom: 1.5rem; /* mb-6 */
-    letter-spacing: 0.05em; /* tracking-wide */
+    margin-bottom: 1.5rem; 
+    letter-spacing: 0.05em; 
   }
   
   @media (min-width: 768px) {
     .title-banner {
-      font-size: 3rem; /* md:text-5xl */
+      font-size: 3rem; 
     }
   }
   
   @media (min-width: 1024px) {
     .title-banner {
-      font-size: 3.75rem; /* lg:text-6xl */
+      font-size: 3.75rem; 
     }
   }
   
   .description-banner {
-    font-size: 1.125rem; /* text-lg */
-    color: #4a5568; /* text-gray-600 */
-    max-width: 48rem; /* max-w-3xl */
+    font-size: 1.125rem; 
+    color: #4a5568; 
+    max-width: 48rem;
     margin-left: auto;
     margin-right: auto;
   }
   
   @media (min-width: 768px) {
     .description-banner {
-      font-size: 1.25rem; /* md:text-xl */
+      font-size: 1.25rem; 
     }
   }
   
   @media (min-width: 1024px) {
     .description-banner {
-      font-size: 1.5rem; /* lg:text-2xl */
+      font-size: 1.5rem; 
     }
   }
   

@@ -38,7 +38,7 @@ const Footer = () => {
                         <span>USD</span>
                     </div>
 
-                    <p className="currency-info">Transactions will be completed in Euros and a currency reference is available on hover.</p>
+                    <p className="currency-info">Transactions will be completed in Euros and a currency reference .</p>
                 </div>
             </div>
             <div className="bold-line"></div>
