@@ -1,0 +1,110 @@
+.filter-container {
+    padding: 20px;
+    background-color: #fff;
+  }
+
+  .filter-content-container{
+    display: flex;
+  }
+
+  .filter-show-hide-button{
+    margin: 10px;
+  }
+  .show-filter-button{
+    border: none;
+    background-color: white;
+    color: #a19e9e;
+  }
+
+h5{
+    margin-bottom: 5px;
+    margin-top: 13px;
+}
+  
+  .filter-section h4 {
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .filter-options {
+    padding-left: 10px;
+  }
+  
+  .filter-options label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  
+
+  .thin-line {
+    border-bottom: 1px solid rgba(112, 109, 109, 0.856);
+    width: 100%;
+  }
+
+
+
+.recommendations-container {
+  margin-right: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.recommendation-btn {
+ 
+  color: black;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  
+}
+
+.recommeded{
+  font-weight: 700;
+  font-size: 14px;
+
+}
+
+.all-options-container{
+  background-color: #f1f1f1;
+  margin-right: 5px;
+}
+
+
+
+.recommendation-list {
+  margin-top: 20px;
+  list-style-type: none;
+  padding: 0;
+  position: absolute;
+}
+
+.recommendation-list li {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  
+}
+
+.recommendation-list li:hover {
+  background-color: #f1f1f1;
+}
+
+
+.two-line-container{
+  border-bottom: 1px solid rgba(112, 109, 109, 0.856);
+    width: 100%;
+  
+}
+
+@media (max-width: 768px) {
+.item-3425{
+    display: none;
+  }
+}

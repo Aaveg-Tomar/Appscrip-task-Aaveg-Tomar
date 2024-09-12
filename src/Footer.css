@@ -1,0 +1,164 @@
+.footer {
+    background-color: #000;
+    color: #fff;
+    
+    padding-bottom: 3px; 
+    padding-right: 30px;
+
+}
+
+.flag-image{
+    width: 20px;
+    margin-right: 4px;
+    margin-top: 4px;
+}
+
+.payment-icon {
+
+    width: 46px;
+    height: 30px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    margin-right: 5px;
+}
+
+.input-email {
+    width: 16rem;
+    border: none;
+    border-radius: 10px;
+    height: 18px;
+}
+
+.footer-newsletter {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.newsletter-form input {
+    padding: 10px;
+    margin-right: 5px;
+}
+
+.newsletter-form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    margin: 16px;
+    padding: 14px;
+    border-radius: 10px;
+}
+
+.bold-line {
+    width: 100%;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.856);
+}
+
+.currency-info {
+    font-size: 14px;
+    color: #efeaea;
+
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.social{
+    display: flex;
+}
+
+.social-icon{
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+    display: flex;
+
+}
+
+.footer-column {
+    margin-bottom: 20px;
+}
+
+.footer-toggle {
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #333;
+    margin-bottom: -20px;
+    margin-top: -5px;
+
+    display: none;
+}
+
+.footer-list {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    padding: 0;
+}
+
+.always-show {
+    max-height: none;
+}
+
+.footer-list.show {
+    max-height: 100px;
+}
+
+.footer-list li {
+    list-style: none;
+    padding: 5px 0;
+}
+
+.footer-list li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-icons {
+    display: none;
+}
+
+.social-icons.show {
+    display: block;
+}
+
+.footer-bottom {
+    padding: 20px;
+    text-align: center;
+
+}
+
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-toggle {
+        display: block;
+        
+    }
+
+    .footer-list {
+        max-height: 0;
+    }
+
+    .footer-list.show {
+        max-height: 300px;
+    }
+
+    .footer-heading {
+        display: none;
+    }
+}
